@@ -18,7 +18,7 @@ stage('ExecuteSonarQubeReport')
 /*stage('UploadArtifactIntoNexusRepository')
 {
   sh "${mavenHome}/bin/mvn deploy"
-}*/
+}
 stage('DeployAppIntotomcatServer')
 {
    sshagent(['be6e4fad-34a1-4f23-aad2-7ee1ac7fec89']) {
